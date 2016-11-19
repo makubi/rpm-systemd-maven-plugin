@@ -3,8 +3,8 @@
 This plugin can be used to generate files for RPM packages and systemd
 services.
 
-[![Build Status](https://travis-ci.org/dglecom/rpm-systemd-maven-plugin.svg?branch=master)](https://travis-ci.org/dglecom/rpm-systemd-maven-plugin)
-[![Maven Central](https://img.shields.io/maven-central/v/de.douglas.maven.plugin/rpm-systemd-maven-plugin.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22de.douglas.maven.plugin%22%20AND%20a%3A%22rpm-systemd-maven-plugin%22)
+[![Build Status](https://travis-ci.org/makubi/rpm-systemd-maven-plugin.svg?branch=master)](https://travis-ci.org/makubi/rpm-systemd-maven-plugin)
+[![Maven Central](https://img.shields.io/maven-central/v/at.makubi.maven.plugin/rpm-systemd-maven-plugin.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22at.makubi.maven.plugin%22%20AND%20a%3A%22rpm-systemd-maven-plugin%22)
 
 ## Usage
 
@@ -16,7 +16,7 @@ The plugin currently supports two goals:
 
 ```xml
 <plugin>
-    <groupId>de.douglas.maven.plugin</groupId>
+    <groupId>at.makubi.maven.plugin</groupId>
     <artifactId>rpm-systemd-maven-plugin</artifactId>
     <version>1.0</version>
     <executions>
@@ -40,7 +40,7 @@ a RPM package including the systemd and postinst file.
 ```xml
 <plugins>
     <plugin>
-        <groupId>de.douglas.maven.plugin</groupId>
+        <groupId>at.makubi.maven.plugin</groupId>
         <artifactId>rpm-systemd-maven-plugin</artifactId>
         <executions>
             <execution>
@@ -127,7 +127,7 @@ To override the **runnableJarPath** and add **additional directories**, use
 ```xml
 <plugins>
     <plugin>
-        <groupId>de.douglas.maven.plugin</groupId>
+        <groupId>at.makubi.maven.plugin</groupId>
         <artifactId>rpm-systemd-maven-plugin</artifactId>
         <configuration>
             <runnableJarPath>/opt/${project.artifactId}/${project.build.finalName}-jarlotte.jar</runnableJarPath>
