@@ -4,7 +4,7 @@
 
     <groupId>at.makubi.maven.plugin</groupId>
     <artifactId>rpm-systemd-maven-plugin</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>maven-plugin</packaging>
 
     <name>RPM Systemd Maven Plugin</name>
@@ -179,7 +179,7 @@
         <url>https://github.com/makubi/rpm-systemd-maven-plugin</url>
         <connection>scm:git:git@github.com:makubi/rpm-systemd-maven-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:makubi/rpm-systemd-maven-plugin.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>rpm-systemd-maven-plugin-1.0.1</tag>
     </scm>
 
     <distributionManagement>
