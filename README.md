@@ -18,7 +18,7 @@ The plugin currently supports two goals:
 <plugin>
     <groupId>at.makubi.maven.plugin</groupId>
     <artifactId>rpm-systemd-maven-plugin</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <executions>
         <execution>
             <phase>generate-resources</phase>
